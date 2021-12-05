@@ -445,7 +445,6 @@
         "Resources/.generated/system/security/securestring.js",
         "Resources/.generated/system/text/encoderfallbackexception.js",
         "Resources/.generated/system/threading/manualresetevent.js",
-
         "Resources/.generated/system/xml/linq/xobject.js",
         "Resources/.generated/system/charextensions.js",
         "Resources/.generated/system/datetimeextensions.js",
@@ -454,6 +453,9 @@
         "Resources/.generated/system/stringextensions.js",
         "Resources/.generated/system/uribuilder.js",
         "Resources/.generated/system/weakreference.js",
+        "Resources/.generated/system/NotImplementedAccessorException.js",
+        "Resources/.generated/system/NotImplementedMethodException.js",
+        "Resources/.generated/system/NotSupportedMethodException.js",
 
         "Resources/.auxiliary/end.js",
         "Resources/.auxiliary/finally.js"

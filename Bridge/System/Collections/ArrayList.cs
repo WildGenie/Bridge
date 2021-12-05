@@ -9,7 +9,7 @@ namespace System.Collections {
         public virtual int Capacity { get; set; }
         public virtual int Count {
 			get{
-				Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(Count));
+                Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(Count));
 				return default (Int32);
 			}
 		}
