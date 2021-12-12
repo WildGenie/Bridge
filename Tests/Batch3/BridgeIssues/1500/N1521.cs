@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace Bridge.ClientTest.Batch3.BridgeIssues
 {
-    [Category(Constants.MODULE_ISSUES)]
+    [Bridge.Test.NUnit.Category(Constants.MODULE_ISSUES)]
     [TestFixture(TestNameFormat = "#1521 - {0}")]
     public class Bridge1521
     {

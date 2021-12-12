@@ -11,7 +11,7 @@ namespace Bridge.ClientTest.Batch3.BridgeIssues
     /// This test consists in checking whether Bridge can translate
     /// instantiation of the System.ComponentModel.BrowsableAttribute.
     /// </summary>
-    [Category(Constants.MODULE_ISSUES)]
+    [Bridge.Test.NUnit.Category(Constants.MODULE_ISSUES)]
     [TestFixture(TestNameFormat = "#2600 - {0}")]
     public class Bridge2600
     {

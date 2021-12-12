@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bridge.ClientTest.Batch3.BridgeIssues
 {
-    [Category(Constants.MODULE_ISSUES)]
+    [Bridge.Test.NUnit.Category(Constants.MODULE_ISSUES)]
     [TestFixture(TestNameFormat = "#1641 - {0}")]
     public class Bridge1641
     {

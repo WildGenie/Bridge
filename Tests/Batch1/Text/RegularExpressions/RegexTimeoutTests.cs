@@ -1,6 +1,7 @@
 ﻿using Bridge.Test.NUnit;
 using System;
 using System.Text.RegularExpressions;
+using RegexMatchTimeoutException = System.RegexMatchTimeoutException;
 
 namespace Bridge.ClientTest.Text.RegularExpressions
 {
