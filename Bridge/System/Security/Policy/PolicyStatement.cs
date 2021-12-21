@@ -5,57 +5,57 @@ using System.Security.Policy;
 using System;
 
 namespace System.Security.Policy {
-    public class PolicyStatement: System.Security.ISecurityEncodable, System.Security.ISecurityPolicyEncodable {
+    public class PolicyStatement: System.Security.ISecurityPolicyEncodable {
 
         public System.Security.PermissionSet PermissionSet { get; set; }
         public System.Security.Policy.PolicyStatementAttribute Attributes { get; set; }
-        public string AttributeString { 
+        public string AttributeString {
 			get{
 				Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(AttributeString));
 				return default (String);
 			}
 		}
-        public PolicyStatement( System.Security.PermissionSet permSet )  { 
+        public PolicyStatement( System.Security.PermissionSet permSet )  {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(PolicyStatement), typeof(PermissionSet));
             }
-        public PolicyStatement( System.Security.PermissionSet permSet, System.Security.Policy.PolicyStatementAttribute attributes )  { 
+        public PolicyStatement( System.Security.PermissionSet permSet, System.Security.Policy.PolicyStatementAttribute attributes )  {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(PolicyStatement), typeof(PermissionSet), typeof(PolicyStatementAttribute));
             }
         public System.Security.Policy.PolicyStatement Copy() {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(Copy) );
             return default( System.Security.Policy.PolicyStatement );
-        
+
 		}
         public void FromXml( System.Security.SecurityElement et ) {
-			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(FromXml), typeof(SecurityElement) ); 
+			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(FromXml), typeof(SecurityElement) );
 		}
         public void FromXml( System.Security.SecurityElement et, System.Security.Policy.PolicyLevel level ) {
-			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(FromXml), typeof(SecurityElement), typeof(PolicyLevel) ); 
+			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(FromXml), typeof(SecurityElement), typeof(PolicyLevel) );
 		}
         public System.Security.SecurityElement ToXml() {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(ToXml) );
             return default( System.Security.SecurityElement );
-        
+
 		}
         public System.Security.SecurityElement ToXml( System.Security.Policy.PolicyLevel level ) {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(ToXml), typeof(PolicyLevel) );
             return default( System.Security.SecurityElement );
-        
+
 		}
         public override bool Equals( System.Object obj ) {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(Equals), typeof(Object) );
             return default( bool );
-        
+
 		}
         public override int GetHashCode() {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(GetHashCode) );
             return default( int );
-        
+
 		}
         internal static System.Security.Policy.PolicyStatement Empty() {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(Empty) );
             return default( System.Security.Policy.PolicyStatement );
-        
+
 		}
     }
 }

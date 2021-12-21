@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 
 namespace System.Security {
 
-    public class PermissionSet : ISecurityEncodable, ICollection, IEnumerable, IDeserializationCallback {
+    public class PermissionSet : ICollection, IDeserializationCallback {
         public PermissionSet( PermissionState state ) { }
         public PermissionSet( PermissionSet permSet ) { }
         public PermissionSet() { }

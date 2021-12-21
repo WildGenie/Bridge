@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Collections;
 
 namespace System.Security.Policy {
-    public class ApplicationTrust: System.Security.Policy.EvidenceBase, System.Security.ISecurityEncodable {
+    public class ApplicationTrust: System.Security.Policy.EvidenceBase {
 
         public System.ApplicationIdentity ApplicationIdentity { get; set; }
         public System.Security.Policy.PolicyStatement DefaultGrantSet { get; set; }

@@ -6,7 +6,7 @@ using System.IO;
 using System.Runtime.Remoting.Messaging;
 
 namespace System.Runtime.Remoting.Messaging {
-    public interface IRemotingFormatter: System.Runtime.Serialization.IFormatter {
+    public interface IRemotingFormatter {
 
         System.Object Deserialize( System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler );
 

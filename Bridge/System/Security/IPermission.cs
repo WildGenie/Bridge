@@ -2,7 +2,7 @@ using System.Runtime.InteropServices;
 
 namespace System.Security {
 
-    public interface IPermission : ISecurityEncodable {
+    public interface IPermission {
         IPermission Copy();
 
         IPermission Intersect( IPermission target );

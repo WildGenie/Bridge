@@ -5,19 +5,19 @@ using System.Security.Cryptography;
 
 namespace System.Security.Cryptography {
 
-    public class RijndaelManaged : Rijndael {
+    public class RijndaelManaged {
         public RijndaelManaged() { }
 
-        public override ICryptoTransform CreateEncryptor( byte[] rgbKey, byte[] rgbIV ) {
+        public ICryptoTransform CreateEncryptor( byte[] rgbKey, byte[] rgbIV ) {
             return default( ICryptoTransform );
         }
 
-        public override ICryptoTransform CreateDecryptor( byte[] rgbKey, byte[] rgbIV ) {
+        public ICryptoTransform CreateDecryptor( byte[] rgbKey, byte[] rgbIV ) {
             return default( ICryptoTransform );
         }
 
-        public override void GenerateKey() { }
-        public override void GenerateIV() { }
+        public void GenerateKey() { }
+        public void GenerateIV() { }
     }
 
 }

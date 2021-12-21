@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System;
 
 namespace System.Diagnostics {
-    public class EventLogPermission: System.Security.Permissions.ResourcePermissionBase {
+    public class EventLogPermission {
 
         public System.Diagnostics.EventLogPermissionEntryCollection PermissionEntries {
 			get{

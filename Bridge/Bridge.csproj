@@ -2332,7 +2332,6 @@
     <Compile Include="System\Security\Cryptography\RC2.cs" />
     <Compile Include="System\Security\Cryptography\RC2CryptoServiceProvider.cs" />
     <Compile Include="System\Security\Cryptography\Rfc2898DeriveBytes.cs" />
-    <Compile Include="System\Security\Cryptography\Rijndael.cs" />
     <Compile Include="System\Security\Cryptography\RijndaelManaged.cs" />
     <Compile Include="System\Security\Cryptography\RijndaelManagedTransform.cs" />
     <Compile Include="System\Security\Cryptography\RIPEMD160.cs" />
@@ -2424,7 +2423,6 @@
     <Compile Include="System\Security\HostSecurityManagerOptions.cs" />
     <Compile Include="System\Security\IEvidenceFactory.cs" />
     <Compile Include="System\Security\IPermission.cs" />
-    <Compile Include="System\Security\ISecurityEncodable.cs" />
     <Compile Include="System\Security\ISecurityPolicyEncodable.cs" />
     <Compile Include="System\Security\IStackWalk.cs" />
     <Compile Include="System\Security\ManifestKinds.cs" />

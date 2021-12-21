@@ -2,7 +2,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace System.Runtime.ExceptionServices {
+namespace IDesignerLoaderHost {
     public class HandleProcessCorruptedStateExceptionsAttribute: System.Attribute {
 
     }

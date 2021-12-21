@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System;
 
 namespace System.Diagnostics {
-    public class PerformanceCounterPermission: System.Security.Permissions.ResourcePermissionBase {
+    public class PerformanceCounterPermission {
 
         public System.Diagnostics.PerformanceCounterPermissionEntryCollection PermissionEntries {
 			get{

@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime;
 
 namespace System.Runtime.Serialization {
-    public abstract class Formatter: System.Runtime.Serialization.IFormatter {
+    public abstract class Formatter {
 
         public abstract System.Runtime.Serialization.ISurrogateSelector SurrogateSelector { get; set; }
         public abstract System.Runtime.Serialization.SerializationBinder Binder { get; set; }

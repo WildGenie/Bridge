@@ -3,10 +3,10 @@
 using System;
 
 namespace System.ComponentModel.Design {
-    public class DesignerVerb: System.ComponentModel.Design.MenuCommand {
+    public class DesignerVerb {
 
         public string Description { get; set; }
-        public string Text { 
+        public string Text {
 			get{
 				Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(Text));
 				return default (String);
@@ -15,16 +15,16 @@ namespace System.ComponentModel.Design {
         #pragma warning disable 67
         #pragma warning disable 67
 
-        public DesignerVerb( string text, System.EventHandler handler ) : base( default( System.EventHandler ), default( System.ComponentModel.Design.CommandID ) ) { 
+        public DesignerVerb( string text, System.EventHandler handler ) {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(DesignerVerb), typeof(String), typeof(EventHandler));
             }
-        public DesignerVerb( string text, System.EventHandler handler, System.ComponentModel.Design.CommandID startCommandID ) : base( default( System.EventHandler ), default( System.ComponentModel.Design.CommandID ) ) { 
+        public DesignerVerb( string text, System.EventHandler handler, System.ComponentModel.Design.CommandID startCommandID ){
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(DesignerVerb), typeof(String), typeof(EventHandler), typeof(CommandID));
             }
         public override string ToString() {
 			Bridge.Luna.Utils.Debug.WarnNotImplementedMethod(nameof(ToString) );
             return default( string );
-        
+
 		}
     }
 }

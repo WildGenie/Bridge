@@ -5,7 +5,7 @@ using System;
 using System.Security.Policy;
 
 namespace System.Security.Policy {
-    public interface IMembershipCondition: System.Security.ISecurityEncodable, System.Security.ISecurityPolicyEncodable {
+    public interface IMembershipCondition: System.Security.ISecurityPolicyEncodable {
 
         bool Check( System.Security.Policy.Evidence evidence );
 

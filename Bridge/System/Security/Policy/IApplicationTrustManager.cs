@@ -5,7 +5,7 @@ using System.Security.Policy;
 using System;
 
 namespace System.Security.Policy {
-    public interface IApplicationTrustManager: System.Security.ISecurityEncodable {
+    public interface IApplicationTrustManager {
 
         System.Security.Policy.ApplicationTrust DetermineApplicationTrust( System.ActivationContext activationContext, System.Security.Policy.TrustManagerContext context );
 
