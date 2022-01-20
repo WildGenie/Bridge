@@ -621,7 +621,7 @@ namespace Bridge.Translator
                 return result;
             }
 
-            if (symbol is INamedTypeSymbol typeSymbol && typeSymbol.IsTupleType)
+            if (symbol is INamedTypeSymbol typeSymbol && typeSymbol.IsTupleType && !typeSymbol.IsGenericType)
             {
                 symbol = typeSymbol.TupleUnderlyingType;
             }
@@ -1064,7 +1064,7 @@ namespace Bridge.Translator
 
         public static bool InheritsFromOrEquals(this ITypeSymbol type, ITypeSymbol baseType)
         {
-            return type.GetBaseTypesAndThis().Contains(baseType);
+            return type.GetBaseTypesAndThis().Contains(baseType, SymbolEqualityComparer.Default);
         }
 
         public static T GetParent<T>(this SyntaxNode node, Type stop = null) where T : SyntaxNode

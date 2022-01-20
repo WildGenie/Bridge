@@ -9,21 +9,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="701d803a-fb0e-4ee6-8117-54b49f90776b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.build/common/CommonAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/.build/common/CommonAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.build/common/NuGet.Build.Package.targets" beforeDir="false" afterPath="$PROJECT_DIR$/.build/common/NuGet.Build.Package.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Contract/Bridge.Contract.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Contract/Bridge.Contract.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/Contract/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Contract/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge.Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bridge.Dev/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/Bridge.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/Bridge.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Builder/Bridge.Builder.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Builder/Bridge.Builder.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Translator/Bridge.Translator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/Bridge.Translator.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/LocalFunctionReplacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/LocalFunctionReplacer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/LocalUsageGatherer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/LocalUsageGatherer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SharpSixRewriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SharpSixRewriter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SwitchPatternReplacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SwitchPatternReplacer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SyntaxHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SyntaxHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compiler/Translator/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Translator/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/TranslatorTests/Bridge.Translator.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/TranslatorTests/Bridge.Translator.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compiler/TranslatorTests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/TranslatorTests/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/DebugProject/Bridge/bridge.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/DebugProject/Bridge/bridge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostBuild/Bridge.PostBuild.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PostBuild/Bridge.PostBuild.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Batch1/Batch1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Batch1/Batch1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Batch2/Batch2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Batch2/Batch2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Batch3/Batch3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Batch3/Batch3.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Batch4/Batch4.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Batch4/Batch4.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ClientTestHelper/ClientTestHelper.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ClientTestHelper/ClientTestHelper.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/ClientTestHelperExternal/ClientTestHelperExternal.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ClientTestHelperExternal/ClientTestHelperExternal.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/DebugProject/DebugProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/DebugProject/DebugProject.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/DebugProject/TestClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/DebugProject/TestClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/DebugProject/TestClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TypeScript/App1/App1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TypeScript/App1/App1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TypeScript/Batch1/Batch1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TypeScript/Batch1/Batch1.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +49,56 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ef24de369344debe17154b164bb0c546b3e0/6E/Symbol.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../luna/tests/fixtures/Sanity/Assets/Scenes/LayerMaskAndOperator/Test.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/FE/defaultbinder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/5E/Convert.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/187/Task.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/105/rttype.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b9e42f0a228d408b97a82c491aad03ba24c5d0/35/ad70ff69/ISymbol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/481/Path.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d97c15b619866cd742a3ef92974d55e29a5c6c484a9397b72995ad4ae7a4bf/SymbolEqualityComparer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b9e42f0a228d408b97a82c491aad03ba24c5d0/97/SymbolInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8eaa2be57ab51b1c4acbc6893ca5d92fc6f416faa61fb5e479a5dda5d9ec0c0/XmlTextReaderImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d4085b09f03e4e78b9b397e513fc3682253000/a7/7dea2c55/CSharpParser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6579d21dbb10ddd57c4a431d3fc0d6b11fe70f733e12c083ea211d7c2498ca/SyntaxNodeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f1774995af68961c9cfc9d2b12f184ba8b4b87/Syntax.xml.Main.Generated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f3563478ab3e4ac398dc0fb0a06c5a6057000/08/2db82a65/StringTextSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/5E/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/LocalUsageGatherer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Contract/Dependencies/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f3563478ab3e4ac398dc0fb0a06c5a6057000/1f/2adad447/TextLocation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/ChainingAssigmentReplacer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/SyntaxHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/AwaitersCollector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d4085b09f03e4e78b9b397e513fc3682253000/06/d1b7905a/CSharpParser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28bec010898a4306a0a472af4672744e440a80/2b/b3cbe0d1/INamedTypeSymbol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/FE/defaultbinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/187/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e03035f8c3e75e2c13e725857b2f83954e0e549ce4dc041f981b6c89ed11fcc/FileSystem.Unix.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3519be49846343d980a36bab98221e4846b600/105/rttype.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7bc1554f4d1e5ae75484f3d279bc6ec6c76df88c1c776f260b0f0f681985ac2/Decimal.DecCalc.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5da57d8bfb65dc4b51e933eecda223ba0b9c85493d8cfed6cddbccd993cbe2/CSharpSyntaxRewriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b9e42f0a228d408b97a82c491aad03ba24c5d0/35/ad70ff69/ISymbol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d97c15b619866cd742a3ef92974d55e29a5c6c484a9397b72995ad4ae7a4bf/SymbolEqualityComparer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b9e42f0a228d408b97a82c491aad03ba24c5d0/97/SymbolInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6b3745be24d6ac5edf253f57c9d6876b8c99c17179da774d1abe369e8d1dbf7/SyntaxReplacer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/db331d9d5bf1af194a74523ba37cba99954695/Syntax.xml.Syntax.Generated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../luna/tests/fixtures/Sanity/Assets/Scenes/LayerMaskAndOperator/Test.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e62a406f2b134ebe82fb2df707f51d6b6dce80/da/3d480fad/SyntaxKind.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Translator/Translator/Translator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/79a7d25df329c75e8da127b5afecf9c328e4663a464f36c67b09e3aac794132/SyntaxTreeSemanticModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compiler/Translator/Inspector/Validator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/41a6ecfd310aaf38524d192546b6f513fd77b515a142f49738af1a57735/SyntaxNode.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="20fnJT528ITYDRtHtaDupApImYR" />
   <component name="ProjectLevelVcsManager">
@@ -77,6 +120,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RiderProblemsViewState">
@@ -87,7 +131,7 @@
     </hideBySeverity>
   </component>
   <component name="RunManager" selected=".NET Project.DebugProject">
-    <configuration name="Batch1" type="DotNetProject" factoryName=".NET Project">
+    <configuration name="Batch1-old" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/4.5/xsp4.exe" />
       <option name="PROGRAM_PARAMETERS" value="--address=127.0.0.1 --port=5000" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests/TypeScript/Batch1" />
@@ -105,6 +149,24 @@
       <option name="PROJECT_KIND" value="Web" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.0" />
       <browser url="http://127.0.0.1:5000/" start="true" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Batch1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Compiler/Builder/bin/Debug/bridge.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-p &quot;$PROJECT_DIR$/Tests/Batch1/Batch1.csproj&quot; -b &quot;$PROJECT_DIR$/Bridge/bin/Debug/Bridge.dll&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Compiler/Build/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Compiler/Builder/Bridge.Builder.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="0" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -156,8 +218,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue=".NET Project.Batch1" />
+      <item itemvalue=".NET Project.Batch1-old" />
       <item itemvalue=".NET Project.DebugProject" />
+      <item itemvalue=".NET Project.Batch1" />
       <item itemvalue=".NET Project.Bridge.Builder" />
       <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
     </list>
@@ -190,6 +253,7 @@
       <workItem from="1642507955891" duration="85000" />
       <workItem from="1642508068235" duration="4331000" />
       <workItem from="1642588800735" duration="3589000" />
+      <workItem from="1642671243600" duration="6680000" />
     </task>
     <servers />
   </component>
@@ -217,23 +281,61 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint suspend="NONE" type="DotNet Exception Breakpoints">
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.FormatException" displayValue="FormatException" namespaceName="System" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <breakpoint suspend="NONE" type="DotNet Exception Breakpoints">
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.ArgumentException" displayValue="ArgumentException" namespaceName="System" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <breakpoint suspend="NONE" type="DotNet Exception Breakpoints">
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.MissingMethodException" displayValue="MissingMethodException" namespaceName="System" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <breakpoint suspend="NONE" type="DotNet Exception Breakpoints">
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.AggregateException" displayValue="AggregateException" namespaceName="System" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.UnauthorizedAccessException" displayValue="UnauthorizedAccessException" namespaceName="System" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.OverflowException" displayValue="OverflowException" namespaceName="System" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="fileName == &quot;/Users/ilyashablovsky/Documents/Projects/Bridge/Tests/Batch1/CSharp7/TestDiscardsAndOutVars.cs&quot;" language="C#" />
+          <url>file://$PROJECT_DIR$/Compiler/Translator/Translator/Translator.InspectAssembly.cs</url>
+          <line>401</line>
+          <properties documentPath="$PROJECT_DIR$/Compiler/Translator/Translator/Translator.InspectAssembly.cs" initialLine="401" containingFunctionPresentation="method 'BuildSyntaxTreeForFile'">
+            <startOffsets>
+              <option value="14862" />
+            </startOffsets>
+            <endOffsets>
+              <option value="14919" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/DiscardReplacer.cs</url>
+          <line>102</line>
+          <properties documentPath="$PROJECT_DIR$/Compiler/Translator/Utils/Roslyn/DiscardReplacer.cs" initialLine="102" containingFunctionPresentation="method 'Replace'">
+            <startOffsets>
+              <option value="4443" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4471" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

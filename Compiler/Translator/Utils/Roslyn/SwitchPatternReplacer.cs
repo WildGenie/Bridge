@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ICSharpCode.NRefactory.MonoCSharp;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.CSharp;
@@ -269,8 +270,8 @@ namespace Bridge.Translator
                 return new Tuple<ExpressionSyntax, List<VariableDeclarationSyntax>, List<ExpressionSyntax>>(conditionList.First(), variables, whens);
             }
 
-            ExpressionSyntax condition = conditionList[0];
-            for (int i = 1; i < conditionList.Count; ++i)
+            ExpressionSyntax condition = SyntaxFactory.LiteralExpression( SyntaxKind.TrueLiteralExpression );
+            for (int i = 0; i < conditionList.Count; ++i)
             {
                 condition = SyntaxFactory.BinaryExpression(SyntaxKind.LogicalOrExpression, condition, conditionList[i]);
             }

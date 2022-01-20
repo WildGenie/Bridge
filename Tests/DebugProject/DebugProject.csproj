@@ -9,7 +9,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Bridge.DebugProject</RootNamespace>
         <AssemblyName>Bridge.DebugProject</AssemblyName>
-        <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
         <AdditionalExplicitAssemblyReferences />
@@ -66,6 +66,9 @@
     <ItemGroup>
         <Reference Include="Bridge.Html5, Version=17.9.0.0, Culture=neutral, processorArchitecture=MSIL">
             <HintPath>..\..\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll</HintPath>
+        </Reference>
+        <Reference Include="Bridge.Test, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\packages\Bridge.Test.Core.1.13.0\lib\net40\Bridge.Test.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup />

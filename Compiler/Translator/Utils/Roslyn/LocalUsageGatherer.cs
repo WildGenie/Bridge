@@ -7,10 +7,38 @@ namespace Bridge.Translator
 {
     public static class LocalUsageGatherer
     {
+        public class CustomSymbolComparer : IEqualityComparer<ISymbol>
+        {
+            private static int index = 0;
+            public static CustomSymbolComparer Instance;
+
+            public CustomSymbolComparer()
+            {
+                Instance = this;
+            }
+
+            public bool Equals(ISymbol x, ISymbol y)
+            {
+                return SymbolEqualityComparer.Default.Equals(x, y);
+            }
+
+            public int GetHashCode(ISymbol obj)
+            {
+#pragma warning disable RS1024
+                var hcode = obj.GetHashCode() + index;
+#pragma warning restore RS1024
+                return hcode.GetHashCode();
+            }
+        }
+
         private class Analyzer : CSharpSyntaxWalker
         {
+            private CustomSymbolComparer _customSymbolComparer = new CustomSymbolComparer();
             private bool _usesThis;
-            private readonly HashSet<ISymbol> _usedVariables = new HashSet<ISymbol>();
+#pragma warning disable RS1024
+            // private readonly HashSet<ISymbol> _usedVariables = new HashSet<ISymbol>(CustomSymbolComparer.Instance);
+            private readonly HashSet<ISymbol> _usedVariables = new HashSet<ISymbol>(SymbolEqualityComparer.Default);
+#pragma warning restore RS1024
             private readonly List<string> _usedVariablesNames = new List<string>();
             private readonly SemanticModel _semanticModel;
 
@@ -205,7 +233,10 @@ namespace Bridge.Translator
         public LocalUsageData(bool directlyOrIndirectlyUsesThis, ISet<ISymbol> directlyOrIndirectlyUsedVariables, IList<string> names)
         {
             DirectlyOrIndirectlyUsesThis = directlyOrIndirectlyUsesThis;
-            DirectlyOrIndirectlyUsedLocals = new HashSet<ISymbol>(directlyOrIndirectlyUsedVariables);
+#pragma warning disable RS1024
+            // DirectlyOrIndirectlyUsedLocals = new HashSet<ISymbol>(directlyOrIndirectlyUsedVariables, LocalUsageGatherer.CustomSymbolComparer.Instance);
+            DirectlyOrIndirectlyUsedLocals = new HashSet<ISymbol>(directlyOrIndirectlyUsedVariables, SymbolEqualityComparer.Default);
+#pragma warning restore RS1024
             this.Names = new List<string>(names);
         }
     }

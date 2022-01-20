@@ -30,7 +30,7 @@ namespace Bridge.Translator
                     xSymbol = info.CandidateSymbols[0];
                 }
 
-                if (xSymbol == null || !symbol.Equals(xSymbol))
+                if (xSymbol == null || !symbol.Equals(xSymbol, SymbolEqualityComparer.Default))
                 {
                     return false;
                 }

@@ -221,7 +221,7 @@ namespace Bridge.Translator
                 return true;    // Empty param array
 
             var lastType = semanticModel.GetTypeInfo(arguments[arguments.Count - 1].Expression).ConvertedType;
-            if (Equals(((IArrayTypeSymbol)parameters[parameters.Length - 1].Type).ElementType, lastType))
+            if (SymbolEqualityComparer.Default.Equals(((IArrayTypeSymbol)parameters[parameters.Length - 1].Type).ElementType, lastType ))
                 return true;    // A param array needs to be created
 
             return false;
@@ -585,7 +585,7 @@ namespace Bridge.Translator
                     pType = ((IArrayTypeSymbol)parameter.Type).ElementType;
                 }
 
-                if (node.Expression is CastExpressionSyntax && type.Equals(pType) || parameter.RefKind != RefKind.None)
+                if (node.Expression is CastExpressionSyntax && type.Equals(pType, SymbolEqualityComparer.Default) || parameter.RefKind != RefKind.None)
                 {
                     return node;
                 }
@@ -691,7 +691,7 @@ namespace Bridge.Translator
             }
             else
             {
-                if (method != null && method.IsGenericMethod && !method.TypeArguments.Any(ta => SyntaxHelper.IsAnonymous(ta) || ta.Kind == SymbolKind.TypeParameter && (ta as ITypeParameterSymbol)?.ContainingSymbol == method))
+                if (method != null && method.IsGenericMethod && !method.TypeArguments.Any(ta => SyntaxHelper.IsAnonymous(ta) || ta.Kind == SymbolKind.TypeParameter && SymbolEqualityComparer.Default.Equals((ta as ITypeParameterSymbol)?.ContainingSymbol, method)))
                 {
                     var expr = node.Expression;
                     var ma = expr as MemberAccessExpressionSyntax;
@@ -863,7 +863,7 @@ namespace Bridge.Translator
                               symbol.ContainingType != null &&
                               thisType != null &&
                               (!thisType.InheritsFromOrEquals(symbol.ContainingType) || node.Parent != null && node.Parent.Parent is GenericNameSyntax) &&
-                              !thisType.Equals(symbol);
+                              !thisType.Equals(symbol, SymbolEqualityComparer.Default);
 
             var qns = nodeParent as QualifiedNameSyntax;
             if (qns != null && needHandle)
@@ -1038,7 +1038,7 @@ namespace Bridge.Translator
                               symbol.ContainingType != null &&
                               thisType != null &&
                               (!thisType.InheritsFromOrEquals(symbol.ContainingType) || node.Parent != null && node.Parent.Parent is GenericNameSyntax) &&
-                              !thisType.Equals(symbol);
+                              !thisType.Equals(symbol, SymbolEqualityComparer.Default);
 
             var qns = node.Parent as QualifiedNameSyntax;
             if (qns != null && needHandle)
